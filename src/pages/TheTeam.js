@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation';
 
 
 const TheTeam = () => {
-  
+
   return (
     <div>
       <Navigation />

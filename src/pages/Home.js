@@ -39,15 +39,70 @@ const Home = () => {
       </div>
       <div className="home-background">
         <div style={{ textAlign: 'center', marginLeft: '10%', marginRight: '10%'}}>
-          <div style={{marginTop: '50px'}}>
-          <text style={{color: 'white', fontSize: '50px', fontWeight: '700'}}>About The Department</text>
-          <br />
-          <p className="home-departmenttext">Our club is based out of the DCSE, SRM Vadapalani, Chennai. Our department boasts a renowned faculty known for their
-          expertise in a wide range of fields. A substantial portion of our esteemed faculty members bring extensive experience,
+          <div style={{}}>
+            <br />
+            <br />
+            <text style={{color: 'white', fontSize: '45px', fontWeight: '700'}}>About The Department</text>
+            <br />
+            <br />
+            <br />
+
+          <p className="home-departmenttext">Our club is based out of the <text style={{color: 'purple'}}>DCSE, SRM Vadapalani, Chennai</text>. Our department boasts a renowned faculty known for their 
+          <text style={{color: 'purple'}}> expertise in a wide range of fields</text>. A substantial portion of our esteemed faculty members bring extensive experience,
           with many having dedicated over a decade to their respective fields. Our research initiatives revolve around crucial
-          domains such as network security, cryptography, wireless sensor networks, data mining, and cloud computing. This steadfast
+          domains such as <text style={{color: 'purple'}}>network security, cryptography, wireless sensor networks, data mining, and cloud computing</text>. This steadfast
           dedication to research is exemplified by the productive contributions of both our faculty and students, as they continually
-          showcase and publish their work at esteemed national and international conferences.</p>
+          showcase and publish their work at esteemed national and international conferences.
+          </p>
+          </div>
+        </div>
+        <div>
+          <br />
+          <br />
+          <hr
+            style={{
+            borderTop: '1px solid lightgrey',
+            width: '5%', // Adjust width as needed
+            margin: '0 auto', // Centers the hr
+            }}
+            />
+        </div>
+        <div style={{ textAlign: 'center', marginLeft: '5%', marginRight: '5%'}}>
+            <br />
+            <br />
+            <text style={{color: 'white', fontSize: '45px', fontWeight: '700'}}>About Us</text>
+            <br />
+            <br />
+            <br />
+          <div className="home-aboutustext">
+            <div style={{paddingRight: '2%', paddingLeft: '2%',paddingTop: '2%', paddingBottom: '2%'}}>
+            <p >
+            <text style={{color: 'purple'}}>White Hat Hackers Club</text> is a student-driven technical organization headquartered at SRMIST, 
+            Vadapalani Campus. The club’s primary objective is to inspire students to delve into the realm of 
+            cybersecurity and ethical hacking, equipping them with the essential skills for success in this field. We
+            welcome students from diverse backgrounds and skill levels, ranging from beginners to advanced, to refine
+            their abilities. Our main goal is to establish a space where like-minded individuals can initiate discussions
+            about ethical hacking and cybersecurity, leveraging their knowledge to drive meaningful progress.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div>
+        <br />
+          <br />
+          <hr
+            style={{
+            borderTop: '1px solid lightgrey',
+            width: '5%', // Adjust width as needed
+            margin: '0 auto', // Centers the hr
+            }}
+            />
+        </div>
+        <div>
+          <div style={{ textAlign: 'center', marginLeft: '5%', marginRight: '5%'}}>
+            <br />
+            <br />
+            <text style={{color: 'white', fontSize: '45px', fontWeight: '700'}} >What we do</text>
           </div>
         </div>
       </div>

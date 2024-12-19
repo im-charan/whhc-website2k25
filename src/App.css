@@ -140,9 +140,21 @@
 
 .home-departmenttext {
   margin-top: '10px';
-  color: white;
+  color: rgb(129, 129, 129);
   font-size: x-large;
-  line-height: 2;
+  line-height: 1.7;
   font-style: italic;
   font-weight: 600;
+  text-align: justify;
+}
+
+.home-aboutustext {
+  margin-top: '10px';
+  color: rgb(129, 129, 129);
+  background-color: #8e35ca2b;
+  font-size: x-large;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
 }
