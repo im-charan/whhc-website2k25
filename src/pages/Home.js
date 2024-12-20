@@ -1,13 +1,10 @@
 import React from "react";
 import Navigation from '../components/Navigation'
-import img1 from '../assets/logo-home.png';
 import { Button } from "react-bootstrap";
 import video from '../assets/home-video.mp4';
-import WhatWeDoCard from "../components/WhatWeDoCard";
-import FlagShipEvent from "../components/FlagshipEvent";
-
-
-
+import WhatWeDoCard from "../components/Home/WhatWeDoCard";
+import FlagShipEvent from "../components/Home/FlagshipEvent";
+import Footer from "../components/Home/Footer";
 
 const Home = () => {
   return (
@@ -32,7 +29,7 @@ const Home = () => {
         </div>
         <div style={{textAlign: "center", marginTop: '50px' , display: 'flex',justifyContent: 'center'}}>
           <div className="home-button-style" style={{marginRight: '10px'}}>
-            <Button size="lg" className="home-button">About Us</Button>
+            <Button size="lg" className="home-button" >About Us</Button>
           </div>
           <div className="home-button-style" style={{marginLeft: '10px'}}>
             <Button size="lg" className="home-button">About the Dept</Button>
@@ -75,7 +72,7 @@ const Home = () => {
             <br />
           <div className="home-aboutustext">
             <div style={{paddingRight: '2%', paddingLeft: '2%',paddingTop: '2%', paddingBottom: '2%'}}>
-            <p >
+            <p className="home-paragraphtext">
             <text style={{color: 'purple'}}>White Hat Hackers Club</text> is a student-driven technical organization headquartered at  
             <text style={{color: 'purple'}}> SRMIST, Vadapalani Campus</text>. The club’s primary objective is to inspire students to delve into the realm of 
             <text style={{color: 'purple'}}> cybersecurity and ethical hacking</text>, equipping them with the essential skills for success in this field. We
@@ -127,20 +124,28 @@ const Home = () => {
         <div>
           <br />
           <br />
+          <br />
           <div style={{ textAlign: 'center', marginLeft: '5%', marginRight: '10%'}}>
             <FlagShipEvent />
           </div>
         </div>
-        <div>
+        <div style={{ textAlign: 'center'}}>
+          <div className="home-team">
+            <div style={{textAlign: "center",  marginLeft: '30%', marginRight: '30%',paddingTop: '6%'}}>
+              {/* <p className='home-paragraphtext' style={{color: 'white' , fontSize: '20px', fontWeight: '800'}}>
+              WHHC is dedicated to growing its community of enthusiastic student developers with a focus on cybersecurity and
+               ethical hacking. We strive to keep our members updated on the latest and advanced technologies, through our interactive
+              workshops and informative publications. Our students gain exceptional insights through seminars featuring industry
+              professionals. These events are made possible through the collaboration of various domains, including Technical, Operations,
+              Content, PR and Design. Their collaboration, dedication and invaluable inputs result in flawlessly executed events.
+              </p> */}
+            </div>
+          </div>
+        </div>
+        <div >
           <br />
           <br />
-          <hr
-            style={{
-            borderTop: '1px solid lightgrey',
-            width: '5%', // Adjust width as needed
-            margin: '0 auto', // Centers the hr
-            }}
-            />
+          <Footer />
         </div>
       </div>
     </div>

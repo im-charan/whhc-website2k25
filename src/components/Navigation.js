@@ -23,9 +23,6 @@ const Navigation = () => {
             </div>
           </Navbar.Brand>
           <Nav align="right">
-            <Nav.Link className="navlink" href="/brainwaveshub">
-              BrainWavesHub
-            </Nav.Link>
 
             <Nav.Link className="navlink" href="/photogallery">
               Photo Gallery
