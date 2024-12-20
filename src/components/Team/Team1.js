@@ -7,7 +7,7 @@ const Team1 = () =>{
     return(
         <CardGroup>
             <Card style={{border:"none", backgroundColor: "transparent"}}>
-                <Card.Title style={{textAlign:'left'}}>
+                <Card.Title style={{textAlign:'left',marginTop: '10%',marginLeft:'10px'}}>
                     <text className="team-paragraphtext" style = {{fontSize:'50px', fontWeight:'1000',fontStyle:'normal'}}>MEET OUR TEAM</text>
                 </Card.Title>
                 <Card.Body>
@@ -28,7 +28,7 @@ const Team1 = () =>{
                 </Card.Body>
             </Card>
             <Card style={{border: "none", backgroundColor: "transparent"}}>
-                <Card.Img variant="top" src={logo} style={{marginTop: '127px', marginLeft:'55px'}}/>
+                <Card.Img variant="top" src={logo} style={{marginTop: '10%', marginLeft:'10%'}}/>
             </Card>
         </CardGroup>
     )

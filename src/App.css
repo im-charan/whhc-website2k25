@@ -128,6 +128,37 @@
   padding-bottom: 20px;
 }
 
+.photogallery-bg {
+  background-color: rgb(17, 0, 23);
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.photogallery-text {
+  margin-top: '10px';
+  color: rgb(129, 129, 129);
+  font-size: x-large;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.photogallery-card {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.home-team {
+  background-image: url('/src/assets/cicada2024/1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
 #home-video {
   width: 100vw;
    height: 100vh;
@@ -192,4 +223,43 @@
   border-color:  rgb(30, 30, 30)  !important;
   color: rgb(92, 0, 128) !important;
   font-weight: 700 !important;
+}
+
+.team-background {
+  background-color:rgb(17, 0, 23);
+  color:white;
+}
+.team-paragraphtext {
+  /* font-family:'arial'; */
+  margin-top: '10px';
+  color: rgb(220, 194, 232);
+  font-size: x-large;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.photogallery-card {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.team-card {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.team-members {
+  margin-top: '10px';
+  color: rgb(129, 129, 129);
+  background-color: #8e35ca2b;
+  font-size: x-large;
+  line-height: 1.7;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.685);
+  border-radius: 15px;
 }
