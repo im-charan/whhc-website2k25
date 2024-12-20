@@ -46,15 +46,15 @@
 
 .navbrand {
   color: rgb(255, 255, 255) !important;
-  font-family: cursive !important;
+  /* font-family: sans-serif wide !important; */
   font-weight: 900;
   display: flex !important;
   font-size: 2em;
 }
 .navbrandsubtext {
   color: rgb(173, 173, 173) !important;
-  font-family: cursive !important;
-  font-weight: 900;
+  /* font-family: Arial, Helvetica, sans-serif !important; */
+  font-weight: 500;
   display: flex !important;
   font-size: 0.6em;
   margin-left: 5px;
@@ -192,4 +192,42 @@
   border-color:  rgb(30, 30, 30)  !important;
   color: rgb(92, 0, 128) !important;
   font-weight: 700 !important;
+}
+.team-background {
+  background-color:rgb(17, 0, 23);
+  color:white;
+}
+.team-paragraphtext {
+  /* font-family:'arial'; */
+  margin-top: '10px';
+  color: rgb(220, 194, 232);
+  font-size: x-large;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.photogallery-card {
+  width: 100%;
+  height: 280px;
+  object-fit: fill;
+}
+
+.team-card {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.team-members {
+  margin-top: '10px';
+  color: rgb(129, 129, 129);
+  background-color: #8e35ca2b;
+  font-size: x-large;
+  line-height: 1.7;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.685);
+  border-radius: 15px;
 }
