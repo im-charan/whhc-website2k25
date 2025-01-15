@@ -25,7 +25,7 @@ const Navigation = () => {
           <Nav align="right">
 
             <Nav.Link className="navlink" href="/photogallery">
-              Photo Gallery
+              Events
             </Nav.Link>
 
             <Nav.Link className="navlink" href="/technozarre">
