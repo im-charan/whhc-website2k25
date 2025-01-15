@@ -1,7 +1,6 @@
 import { Card } from "react-bootstrap";
 import { CardGroup } from "react-bootstrap";
 import logo from '../../assets/team-overall.jpg';
-import Button from "react-bootstrap/Button";
 
 const Team1 = () =>{
     return(

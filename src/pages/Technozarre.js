@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from '../components/Navigation'
-import Timer from "../components/Team/Timer";
+import Timer from "../components/Technozarre/Timer";
 
 
 
@@ -11,7 +11,7 @@ const Technozarre = () => {
       <Navigation />
       {/* <h2>This is Technozarre 2025</h2>
        */}
-      <div className="technozzare-page">
+      <div className="technozarre-page" style={{backgroundColor: '#110017', height: '100vh'}}>
         <Timer />
       </div>
     </div>
