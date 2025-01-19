@@ -40,8 +40,9 @@
 }
 
 .navbar {
-  background-color: rgb(14, 0, 19);
+  background-color: transparent;
   height: 15vh;
+  z-index: 2 !important;
 }
 
 .navbrand {
@@ -71,7 +72,7 @@
 }
 
 .navlink:hover {
-  color: rgb(114, 29, 234) !important;
+  color: rgb(238, 6, 6) !important;
 }
 
 .home {
@@ -79,7 +80,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: auto;
+  position: relative;
 }
 
 .home-imagebox {
@@ -122,7 +124,7 @@
 }
 
 .home-background {
-  background-color: rgb(17, 0, 23);
+  background-color: rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
@@ -159,15 +161,30 @@
   height: 100vh;
 }
 
-#home-video {
+.video-container {
+  position: relative;
   width: 100vw;
-   height: 100vh;
-   object-fit: cover;
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
-   z-index: -1;
+  height: 100vh;  /* Make the container fill the entire viewport height */
+  overflow: hidden;  /* Hide the overflowing video */
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 25vh;  /* Make the container fill the entire viewport height */
+  }
+}
+
+#home-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: scroll;
 }
 
 .home-paragraphtext {
@@ -265,8 +282,137 @@
 }
 
 .technozzare-page {
-  background-color: #110017;
+  background-color: #000000;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
 }
+
+
+.flip-card {
+  display: flex;
+  background-color: transparent;
+  width: 377px;
+  height: 533px;
+  perspective: 1000px;
+}
+
+.flip-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 20vh;
+}
+
+.navbar-technozarre {
+  background-color: transparent;
+  height: 15vh;
+}
+
+/* Default timer container styling */
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Default FlipClock styling */
+.flip-clock {
+  display: flex;
+  align-items: center;
+}
+
+.flip-clock .digit-block {
+  background: linear-gradient(90deg, rgb(195, 21, 21), rgb(57, 5, 89));
+  color: #fff;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 2rem;
+  width: 80px;
+  height: 80px;
+  font-weight: 800;
+  box-shadow: 4px 8px 10px rgba(144, 10, 148, 0.61);
+}
+
+/* Stack timer vertically for tablets */
+@media (max-width: 768px) {
+  .flip-clock {
+    flex-direction: column;  /* Stack digits vertically */
+    align-items: center;     /* Center align vertically stacked digits */
+  }
+
+  .flip-clock .digit-block {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin: 3px; /* Reduced margin */
+  }
+
+  .flip-clock .label {
+    font-size: 2rem;
+  }
+}
+
+/* Stack timer vertically for small screens */
+@media (max-width: 480px) {
+  .flip-clock {
+    flex-direction: column;  /* Stack digits vertically */
+    align-items: center;     /* Center align vertically stacked digits */
+  }
+
+  .flip-clock .digit-block {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    margin: 1px; /* Further reduced margin to fit smaller screens */
+  }
+
+  .flip-clock .label {
+    font-size: 1.9rem;
+  }
+
+  .timer-container {
+    padding: 5px; /* Reduced padding to avoid excessive space */
+  }
+}
+
+/* Further shrinking for very small devices */
+@media (max-width: 320px) {
+  .flip-clock {
+    flex-direction: column;  /* Stack digits vertically */
+    align-items: center;     /* Center align vertically stacked digits */
+  }
+
+  .flip-clock .digit-block {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin: 1px; /* Very small margin for compact view */
+  }
+
+  .flip-clock .label {
+    font-size: 1.8rem;
+  }
+
+  .timer-container {
+    padding: 3px; /* Minimal padding */
+  }
+}
+
+.technozarre-banner {
+  height: 80vh;
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .technozarre-banner {
+    height: 20vh;
+  }
+}
+

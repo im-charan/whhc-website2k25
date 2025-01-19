@@ -9,8 +9,8 @@ const PhotoGallery = () => {
 
   return (
     <div>
-      <Navigation />
       <div className="photogallery-bg">
+        <Navigation />
         <div>
           <div style={{ textAlign: 'center', marginLeft: '10%', marginRight: '10%', paddingTop: '5%'}}>
             <text className='photogallery-text' style={{fontSize: '30px', fontWeight: '900'}}>HACK HORIZONS - CODE CREATE CONQUER!</text>

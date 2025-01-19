@@ -7,16 +7,25 @@ const Timer = () => {
   const targetDate = new Date(technozarre).getTime();
 
   return (
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+    <div className="timer-container">
       <FlipClockCountdown 
         to={targetDate} 
         className="flip-clock" 
         labels={['Days', 'Hours', 'Minutes', 'Seconds']} 
-        labelStyle={{ fontSize: '26px', color: '#333', }}
-        digitBlockStyle={{ backgroundColor: ' #5c0080', color: '#fff', borderRadius: '10px', width: '140px', height: '30vh', margin: '5px',
-          fontSize: '100px', fontWeight: '800',boxShadow: '4px 8px 10px rgba(216, 5, 5, 0.4)',
-         }}
-        dividerStyle={{ color: 'rgb(43, 35, 54)' }}
+        labelStyle={{ fontSize: '1.5vw', color: '#333' }}
+        digitBlockStyle={{
+          backgroundColor: 'linear-gradient(90deg, rgb(195, 21, 21), rgb(57, 5, 89))',
+          color: 'rgb(183, 183, 183)',
+          borderRadius: '10px',
+          width: '80px',
+          height: '100px',
+          margintop: '10px',
+          margin: '5px',
+          fontSize: '4rem',
+          fontWeight: '900',
+          boxShadow: '4px 8px 10px rgba(144, 10, 148, 0.61)',
+        }}
+        dividerStyle={{ color: 'rgb(43, 35, 54)', fontSize: '1.2rem' }}
         duration={0.85}
         
       />

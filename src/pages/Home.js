@@ -5,36 +5,24 @@ import video from '../assets/home-video.mp4';
 import WhatWeDoCard from "../components/Home/WhatWeDoCard";
 import FlagShipEvent from "../components/Home/FlagshipEvent";
 import Footer from "../components/Home/Footer";
-
 const Home = () => {
   return (
-    <div text-align="center">
-        <Navigation />
-      <div className="home">
+    <div className="home">
+      <div className="video-container">
         <video autoPlay muted loop id = 'home-video'>
           <source src={video} type="video/mp4"/>
         </video>
-        <div className="home-imagebox">
-          {/* <img src={img1} alt="../assets/logo-home.png" className="logo-home"/> */}
+        <div >
+          <Navigation />
         </div>
-        <div style={{textAlign: "center", marginTop: '25px'}}>
-          {/* <text style={{color: 'white' , fontSize: '80px', fontWeight: '700'}}>White Hat Hackers</text>
-          <br />
-          <text style={{color: 'white' , fontSize: '80px', fontWeight: '700'}}>Club</text> */}
-        </div>
-        <div style={{textAlign: "center", marginTop: '35px'}}>
-          {/* <text style={{color: 'grey', fontSize: '25px'}}>SRM Institute of Science and Technology</text>
-          <br />
-          <text style={{color: 'grey', fontSize: '25px'}}>Department of Computer Science and Engineering</text> */}
-        </div>
-        <div style={{textAlign: "center", marginTop: '50px' , display: 'flex',justifyContent: 'center'}}>
+        {/* <div style={{textAlign: "center", marginTop: '50px' , display: 'flex',justifyContent: 'center'}}>
           <div className="home-button-style" style={{marginRight: '10px'}}>
             <Button size="lg" className="home-button" >About Us</Button>
           </div>
           <div className="home-button-style" style={{marginLeft: '10px'}}>
             <Button size="lg" className="home-button">About the Dept</Button>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="home-background">
         <div style={{ textAlign: 'center', marginLeft: '10%', marginRight: '10%'}}>

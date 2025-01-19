@@ -8,8 +8,8 @@ const TheTeam = () => {
 
   return (
     <div className="team-background">
-      <Navigation />
       <div style={{ textAlign: 'center', marginLeft:'5%', marginRight: '10%'}}>
+        <Navigation />
         <Team1 />
       </div>
       <br>
