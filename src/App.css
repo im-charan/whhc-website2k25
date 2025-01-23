@@ -164,7 +164,7 @@
 .video-container {
   position: relative;
   width: 100vw;
-  height: 123vh;
+  height: 110vh;
     /* Make the container fill the entire viewport height */
   overflow: hidden;  /* Hide the overflowing video */
 }
@@ -297,7 +297,7 @@
   height: 533px;
   perspective: 1000px;
   justify-content: center;
-  
+
 }
 
 .flip-card-wrapper {
