@@ -29,7 +29,7 @@ const Events = () => {
           <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${sih})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
           </div>
           <div className="flip-card" onClick={handleClick1} style={{backgroundColor: 'rgba(72, 3, 89, 0.46)'}}>
-            <h2 style={{color: 'white', }}></h2>
+            <h2 style={{color: 'white', }}>Nothing</h2>
           </div>
         </ReactCardFlip>
       </div>
