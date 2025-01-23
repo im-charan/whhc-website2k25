@@ -164,7 +164,8 @@
 .video-container {
   position: relative;
   width: 100vw;
-  height: 100vh;  /* Make the container fill the entire viewport height */
+  height: 123vh;
+    /* Make the container fill the entire viewport height */
   overflow: hidden;  /* Hide the overflowing video */
 }
 
@@ -290,11 +291,13 @@
 
 
 .flip-card {
-  display: flex;
+  /* display: flex; */
   background-color: transparent;
   width: 377px;
   height: 533px;
   perspective: 1000px;
+  justify-content: center;
+  
 }
 
 .flip-card-wrapper {
@@ -305,7 +308,6 @@
   gap: 100px;
   flex-wrap: wrap;
   padding: 20px;
-  padding-top: 20vh;
 }
 
 .navbar-technozarre {
@@ -329,7 +331,7 @@
 }
 
 .flip-clock .digit-block {
-  background: linear-gradient(90deg, rgb(195, 21, 21), rgb(57, 5, 89));
+  background: linear-gradient(90deg, rgb(57, 5, 89), rgb(195, 21, 21));
   color: #fff;
   border-radius: 10px;
   margin: 5px;
@@ -416,3 +418,11 @@
   }
 }
 
+.technozarre-title {
+  color: rgb(129, 129, 129);
+  font-size: 45px;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+}

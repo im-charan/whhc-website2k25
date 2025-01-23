@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from '../components/Navigation'
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 import video from '../assets/home-video.mp4';
 import WhatWeDoCard from "../components/Home/WhatWeDoCard";
 import FlagShipEvent from "../components/Home/FlagshipEvent";
@@ -8,13 +8,14 @@ import Footer from "../components/Home/Footer";
 const Home = () => {
   return (
     <div className="home">
+      <div style={{backgroundColor: 'black'}}>
+          <Navigation />
+        </div>
       <div className="video-container">
         <video autoPlay muted loop id = 'home-video'>
           <source src={video} type="video/mp4"/>
         </video>
-        <div >
-          <Navigation />
-        </div>
+        
         {/* <div style={{textAlign: "center", marginTop: '50px' , display: 'flex',justifyContent: 'center'}}>
           <div className="home-button-style" style={{marginRight: '10px'}}>
             <Button size="lg" className="home-button" >About Us</Button>
