@@ -32,7 +32,7 @@ const Navigation = () => {
               Events
             </Nav.Link>
             <Nav.Link className="navlink" href="/technozarre">
-              Technozarre-2K25
+              Technozarre'25
             </Nav.Link>
             <Nav.Link className="navlink" href="/team">
               Team

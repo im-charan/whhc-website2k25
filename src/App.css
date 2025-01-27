@@ -426,3 +426,12 @@
   font-weight: 900;
   text-align: center;
 }
+
+.technozarre-subtitle {
+  color: rgb(215, 154, 244);
+  font-size: 35px;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+}
