@@ -45,6 +45,7 @@ const PhotoGallery = () => {
         </div>
       </div>
     </div>
+  
   )
 
 }

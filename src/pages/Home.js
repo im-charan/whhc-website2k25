@@ -16,14 +16,7 @@ const Home = () => {
           <source src={video} type="video/mp4"/>
         </video>
         
-        {/* <div style={{textAlign: "center", marginTop: '50px' , display: 'flex',justifyContent: 'center'}}>
-          <div className="home-button-style" style={{marginRight: '10px'}}>
-            <Button size="lg" className="home-button" >About Us</Button>
-          </div>
-          <div className="home-button-style" style={{marginLeft: '10px'}}>
-            <Button size="lg" className="home-button">About the Dept</Button>
-          </div>
-        </div> */}
+
       </div>
       <div className="home-background">
         <div style={{ textAlign: 'center', marginLeft: '10%', marginRight: '10%'}}>

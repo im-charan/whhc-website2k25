@@ -32,6 +32,7 @@ const Technozarre = () => {
           </div>
       </div>
     </div>
+    
   )
 
 }
