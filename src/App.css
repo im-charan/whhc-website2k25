@@ -435,3 +435,26 @@
   font-weight: 900;
   text-align: center;
 }
+
+.technozarre-back-header {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+}
+.technozarre-back {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.custom-dropdown  .dropdown-toggle {
+  background-color:  #ff1515 !important;
+  border: none !important;
+  color: #ff1515 !important; /* Example: dark gray font */
+  font-size: 1.2rem;
+}
+.custom-dropdown  .dropdown-toggle:hover {
+  color: #939393 !important; /* Change color on hover */
+}

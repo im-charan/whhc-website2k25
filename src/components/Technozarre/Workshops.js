@@ -39,14 +39,13 @@ const Workshops = () => {
           <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${sih_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
 
             <div style={{textAlign: 'center'}}>
-              <h2 style={{color: 'white', marginTop:'10px',}}>SIH Workshop</h2>
+              <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>SIH Workshop</p>
             </div>
-            <br />
-            <div style={{fontSize: '12px'}}>
-              <p style={{color:'white'}}>
+            <div className="technozarre-back" style={{fontSize: '15px'}}>
+              {/* <p style={{color:'white'}}>
               Hey everyone! 👋
               We’re excited to invite you to a hands-on workshop designed to spark your curiosity and elevate your skills! 🛠️📚
-              </p>
+              </p> */}
 
               <p style={{color:'white'}}>📅 Date: 20 January 2025</p>
               <p style={{color:'white'}}>🕒 Time: 10:30AM - 12:30PM</p>
@@ -62,10 +61,11 @@ const Workshops = () => {
             </div>
 
             <div>
-              <Button style={{width: '100px'}} 
+              <Button  style={{width: '100px'}} 
               onClick={()=>{
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
-              }} >
+              }}
+              disabled className="bg-gray-400 text-white py-2 px-4 rounded" >
                 Register</Button>
             </div>
           </div>

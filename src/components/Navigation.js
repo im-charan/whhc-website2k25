@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "../assets/logo.png";
+import { NavDropdown } from "react-bootstrap";
 
 const Navigation = () => {
   return (
@@ -30,13 +31,22 @@ const Navigation = () => {
           <Nav className="ms-auto">
             <Nav.Link className="navlink" href="/photogallery">
               Events
-            </Nav.Link>
-            <Nav.Link className="navlink" href="/technozarre">
-              Technozarre'25
-            </Nav.Link>
+            </Nav.Link>            
             <Nav.Link className="navlink" href="/team">
               Team
             </Nav.Link>
+            {/* <Nav.Link className="navlink" href="/technozarre">
+              Technozarre'25
+            </Nav.Link> */}
+            <NavDropdown title="Technozarre'25" id="basic-nav-dropdown" className="custom-dropdown">
+              <NavDropdown.Item href="#action/3.1" className="navlink">Technical</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" className="navlink">Non-Technical</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" className="navlink">Gaming</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
