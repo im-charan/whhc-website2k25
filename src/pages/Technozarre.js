@@ -5,12 +5,10 @@ import banner from "../assets/technozarre2k25/banner.png";
 import Navigation from "../components/Navigation";
 import Events from "../components/Technozarre/Events";
 import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
 
 const Technozarre = () => {
 
   return (
-    <BrowserRouter>
       <div>
           <div style={{backgroundColor: 'black'}}>
             <Navigation />
@@ -35,7 +33,6 @@ const Technozarre = () => {
             </div>
         </div>
       </div>
-    </BrowserRouter>
     
   )
 

@@ -36,12 +36,12 @@ const Workshops = () => {
         <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
           <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${sih})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
           </div>
-          <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${sih_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${sih_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
 
             <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>SIH Workshop</p>
             </div>
-            <div className="technozarre-back" style={{fontSize: '15px'}}>
+            <div className="technozarre-back" style={{fontSize: '15px', flex: 1, color: 'white',overflowY:'auto'}}>
             
 
               <p style={{color:'white'}}>📅 Date: 20 January 2025</p>
@@ -57,7 +57,7 @@ const Workshops = () => {
               <p style={{color:'white'}}>Whether you’re a beginner or a tech enthusiast, this workshop is crafted to help you grow and innovate! 🤩</p>
             </div>
             <br />
-              <div class='center'>
+            <div className='center' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
         
               <Button  style={{width: '200px',textAlign: 'center'}} 
               onClick={()=>{
