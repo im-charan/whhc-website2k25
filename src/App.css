@@ -75,6 +75,29 @@
   color: rgb(238, 6, 6) !important;
 }
 
+
+
+.technozarre-link {
+  color: rgb(173, 173, 173) !important;
+  font-size: 0.9em !important;
+  text-align: left;
+}
+
+.technozarre-link:hover {
+  color: rgb(238, 6, 6) !important;
+  background: transparent;
+}
+
+.technozarre-hlink {
+  color: rgb(173, 173, 173) !important;
+  font-size: 1.1em !important;
+}
+
+.technozarre-hlink:hover {
+  color: rgb(238, 6, 6) !important;
+  background: transparent;
+}
+
 .home {
   /* background-image: url('/src/assets/home-bg.jpeg'); */
   background-size: cover;
@@ -450,11 +473,15 @@
 }
 
 .custom-dropdown  .dropdown-toggle {
-  background-color:  #ff1515 !important;
+  background:transparent;
   border: none !important;
   color: #ff1515 !important; /* Example: dark gray font */
   font-size: 1.2rem;
 }
-.custom-dropdown  .dropdown-toggle:hover {
-  color: #939393 !important; /* Change color on hover */
+
+.custom-dropdown > .dropdown-menu {
+  background:transparent;
+}
+.custom-dropdown > btn-default {
+  background:transparent;
 }
