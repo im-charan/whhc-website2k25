@@ -42,10 +42,7 @@ const Workshops = () => {
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>SIH Workshop</p>
             </div>
             <div className="technozarre-back" style={{fontSize: '15px'}}>
-              {/* <p style={{color:'white'}}>
-              Hey everyone! 👋
-              We’re excited to invite you to a hands-on workshop designed to spark your curiosity and elevate your skills! 🛠️📚
-              </p> */}
+            
 
               <p style={{color:'white'}}>📅 Date: 20 January 2025</p>
               <p style={{color:'white'}}>🕒 Time: 10:30AM - 12:30PM</p>
@@ -59,15 +56,16 @@ const Workshops = () => {
               <p style={{color:'white'}}>•⁠  ⁠✨ Learning Experience</p>
               <p style={{color:'white'}}>Whether you’re a beginner or a tech enthusiast, this workshop is crafted to help you grow and innovate! 🤩</p>
             </div>
-
-            <div>
-              <Button  style={{width: '100px'}} 
+            <br />
+              <div class='center'>
+        
+              <Button  style={{width: '200px',textAlign: 'center'}} 
               onClick={()=>{
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
               }}
               disabled className="bg-gray-400 text-white py-2 px-4 rounded" >
-                Register</Button>
-            </div>
+                Registrations Closed</Button>
+              </div>
           </div>
         </ReactCardFlip>
       </div>
@@ -76,37 +74,30 @@ const Workshops = () => {
         <ReactCardFlip isFlipped={isFlipped2} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
           <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${research})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
           </div>
-          <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${research_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${research_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
           <div style={{textAlign: 'center'}}>
-              <h2 style={{color: 'white', marginTop:'10px',}}>Cracking the Code</h2>
+              <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>Cracking the Code</p>
+            </div>
+            <div className="technozarre-back" style={{fontSize: '15px', flex: 1, color: 'white',overflowY:'auto'}}>
+            
+              <p style={{color:'white'}}>🗓️Date: 21st January, 2025</p>
+              <p style={{color:'white'}}>⏰Time: 10:00 AM to 2:30 PM</p>
+              <p style={{color:'white'}}>🏢 Venue: CSE(ETECH) Lab, SRM Vadapalani</p>      
+              <p style={{color:'white'}}>🚀 Workshop Highlights:</p>
+              <p style={{color:'white'}}>•⁠  ⁠🧠 Expert-led sessions on the research process </p>
+              <p style={{color:'white'}}>•⁠  ⁠📑 Step-by-step guide to writing and structuring your paper</p>
+              <p style={{color:'white'}}>•⁠  ⁠🚀 Tips for publishing in reputed journals</p>
+              <p style={{color:'white'}}>•⁠  🤝 Networking with fellow researchers</p>
             </div>
             <br />
-            <div style={{fontSize: '12px'}}>
-              <p style={{color:'white'}}>
-              Hey everyone! 👋
-              We’re excited to invite you to a hands-on workshop designed to spark your curiosity and elevate your skills! 🛠️📚
-              </p>
-
-              <p style={{color:'white'}}>📅 Date: 20 January 2025</p>
-              <p style={{color:'white'}}>🕒 Time: 10:30AM - 12:30PM</p>
-              <p style={{color:'white'}}>🏢 Venue: Auditorium</p>
-
-              
-              <p style={{color:'white'}}>🔥 What’s in store?</p>
-              <p style={{color:'white'}}>•⁠  ⁠🧠 Expert-led sessions on the working of a hackathon </p>
-              <p style={{color:'white'}}>•⁠  ⁠🚀 Ignite your hackathon journey</p>
-              <p style={{color:'white'}}>•⁠  ⁠🤝 Networking with like-minded enthusiasts</p>
-              <p style={{color:'white'}}>•⁠  ⁠✨ Learning Experience</p>
-              <p style={{color:'white'}}>Whether you’re a beginner or a tech enthusiast, this workshop is crafted to help you grow and innovate! 🤩</p>
-            </div>
-
-            <div>
-              <Button style={{width: '100px'}} 
+            <div className='center' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
+            <Button  style={{width: '200px',textAlign: 'center'}} 
               onClick={()=>{
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
-              }} >
-                Register</Button>
-          </div>
+              }}
+              disabled className="bg-gray-400 text-white py-2 px-4 rounded" >
+                Registrations Closed</Button>
+                </div>
           </div>
         </ReactCardFlip>
       </div>

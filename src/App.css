@@ -447,14 +447,29 @@
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
+  margin-left: 20px;
 }
 
 .custom-dropdown  .dropdown-toggle {
-  background-color:  #ff1515 !important;
+  background-color: transparent !important;
   border: none !important;
   color: #ff1515 !important; /* Example: dark gray font */
   font-size: 1.2rem;
 }
 .custom-dropdown  .dropdown-toggle:hover {
   color: #939393 !important; /* Change color on hover */
+}
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+  margin-bottom: 10px;
+  /* top: 50%; */
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
