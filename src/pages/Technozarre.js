@@ -4,7 +4,7 @@ import Workshops from "../components/Technozarre/Workshops";
 import banner from "../assets/technozarre2k25/banner.png";
 import Navigation from "../components/Navigation";
 import Events from "../components/Technozarre/Events";
-import { BrowserRouter } from "react-router-dom";
+
 
 const Technozarre = () => {
 
