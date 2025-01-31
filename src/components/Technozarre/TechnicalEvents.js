@@ -2,6 +2,7 @@ import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import comingsoon from "../../assets/technozarre2k25/events/comingsoon.png"
 import staytuned from "../../assets/technozarre2k25/events/staytuned.png"
+import etreasure_bg from "../../assets/technozarre2k25/events/etreasure_bg.jpg"
 
 import { Button } from "react-bootstrap";
 
@@ -210,7 +211,7 @@ const TechnicalEvents = () => {
             <ReactCardFlip isFlipped={isFlipped6} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
               <div className="flip-card" onClick={handleClick6} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
-              <div className="flip-card" onClick={handleClick6} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick6} style={{backgroundImage: `url(${etreasure_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>E Treasure Hunt</p>
             </div>
@@ -224,7 +225,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'green', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/BJSdS4fvXrz5oaPr6','_blank');
               }}

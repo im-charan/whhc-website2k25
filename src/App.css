@@ -316,8 +316,10 @@
 .flip-card {
   /* display: flex; */
   background-color: transparent;
-  width: 377px;
-  height: 533px;
+  /* width: 377px; */
+  /* height: 533px; */
+  width: 360px;
+  height: 450px;;
   perspective: 1000px;
   justify-content: center;
 
@@ -471,6 +473,7 @@
   font-style: normal;
   font-size: 12px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .custom-dropdown  .dropdown-toggle {
