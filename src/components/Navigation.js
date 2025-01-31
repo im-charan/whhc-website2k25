@@ -53,6 +53,7 @@ const Navigation = () => {
             <NavDropdown title="Technozarre'25" id="basic-nav-dropdown" className="custom-dropdown">
               <NavDropdown.Item
                 className="technozarre-hlink"
+                onClick={() => navigate("/technozarre")}
               >
                 Technozarre2k25
               </NavDropdown.Item>
