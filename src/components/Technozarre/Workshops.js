@@ -61,7 +61,7 @@ const Workshops = () => {
             </div>
             <br />
             <div className="register-button" style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '250px',textAlign: 'center', backgroundColor:'black',borderColor: '#3c6094', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '250px',textAlign: 'center', backgroundColor:'black',borderColor: 'purple', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
               }}
@@ -93,7 +93,7 @@ const Workshops = () => {
             </div>
             <br />
             <div className="register-button" style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '250px',textAlign: 'center', backgroundColor:'black',borderColor: '#3c6094', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '250px',textAlign: 'center', backgroundColor:'black',borderColor: 'green', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
               }}
@@ -118,14 +118,15 @@ const Workshops = () => {
               <p style={{color:'white'}}>⏰Time: 9:00 AM to 2:30 PM</p>
               <p style={{color:'white'}}>🏢 Venue: CSE(ETECH) Lab, SRM Vadapalani</p>      
               <p style={{color:'white'}}>🚀 Workshop Highlights:</p>
-              <p style={{color:'white'}}>•⁠  ⁠🧠 Expert-led sessions on the research process </p>
-              <p style={{color:'white'}}>•⁠  ⁠📑 Step-by-step guide to writing and structuring your paper</p>
-              <p style={{color:'white'}}>•⁠  ⁠🚀 Tips for publishing in reputed journals</p>
+              <p style={{color:'white'}}>•⁠  ✨ Understand the basics of quantum mechanics and computation. </p>
+              <p style={{color:'white'}}>•⁠  📘 Learn how quantum computers differ from classical computers.</p>
+              <p style={{color:'white'}}>•⁠  🌍 Explore real-world use cases in cryptography, AI, and optimization.</p>
+              <p style={{color:'white'}}>•⁠  ⚙️  Gain insights into quantum circuits and qubit technologies.</p>
             </div>
             <div className="register-button" style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
             <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor: '#3c6094', fontWeight:'600'}} 
               onClick={()=>{
-                window.open('https://forms.gle/gYWRpZ6bPZi5zwQA8','_blank');
+                window.open('https://forms.gle/aPKHHEhuWniJ8tUAA','_blank');
               }}
               >
                 Register</Button>
