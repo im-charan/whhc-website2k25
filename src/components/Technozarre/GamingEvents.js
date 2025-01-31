@@ -3,12 +3,14 @@ import ReactCardFlip from "react-card-flip";
 import comingsoon from "../../assets/technozarre2k25/events/comingsoon.png"
 import staytuned from "../../assets/technozarre2k25/events/staytuned.png"
 import { Button } from "react-bootstrap";
+import bgmi_bg from "../../assets/technozarre2k25/events/bgmi_bg.png"
+import valo_bg from "../../assets/technozarre2k25/events/valo_bg.png"
+import fifa_bg from "../../assets/technozarre2k25/events/fifa_bg.png"
 
 const GamingEvents = () =>{
   const [isFlipped1, setIsFlipped1] = useState(false);
   const [isFlipped2, setIsFlipped2] = useState(false);
   const [isFlipped3, setIsFlipped3] = useState(false);
-  const [isFlipped4, setIsFlipped4] = useState(false);
 
   const handleClick1 = () => {
     setIsFlipped1(!isFlipped1);
@@ -18,9 +20,6 @@ const GamingEvents = () =>{
   }
   const handleClick3 = () => {
     setIsFlipped3(!isFlipped3);
-  }
-  const handleClick4 = () => {
-    setIsFlipped4(!isFlipped4);
   }
 
 
@@ -38,7 +37,7 @@ const GamingEvents = () =>{
             <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
             <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
-              <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${bgmi_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>BGMI</p>
             </div>
@@ -49,7 +48,7 @@ const GamingEvents = () =>{
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#c19934', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/MXNcp7H3HUhvJhUg8','_blank');
               }}
@@ -64,7 +63,7 @@ const GamingEvents = () =>{
             <ReactCardFlip isFlipped={isFlipped2} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
             <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
-              <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${valo_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>Valorant</p>
             </div>
@@ -90,7 +89,7 @@ const GamingEvents = () =>{
             <ReactCardFlip isFlipped={isFlipped3} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
             <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
-              <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${fifa_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>FIFA</p>
             </div>
@@ -102,7 +101,7 @@ const GamingEvents = () =>{
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#6fc089', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/KCPVB3W5PH3gdJA59','_blank');
               }}

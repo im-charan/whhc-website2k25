@@ -75,7 +75,7 @@ const NontechEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#e6a57d', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/vLdkjnAbPAsAoz2D7','_blank');
               }}
@@ -105,7 +105,7 @@ const NontechEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#db9600', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/neqYkijQGYdNoDSS9','_blank');
               }}
@@ -133,7 +133,7 @@ const NontechEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'pink', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/47F3uJeLy7vUTtb4A','_blank');
               }}
@@ -162,7 +162,7 @@ const NontechEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#a1815c', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/Af3v1LTtYpCRxfHw5','_blank');
               }}
@@ -221,7 +221,7 @@ const NontechEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'green', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#5c85a1', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/X4v1utq8JQznhz3h7','_blank');
               }}
@@ -250,7 +250,7 @@ const NontechEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#c26456', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/qqrHDs2b63GJfr5y7','_blank');
               }}

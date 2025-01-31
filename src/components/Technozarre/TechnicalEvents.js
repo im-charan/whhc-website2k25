@@ -78,7 +78,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#dde67b', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/gYWRpZ6bPZi5zwQA8','_blank');
               }}
@@ -108,7 +108,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#7bd4e6', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/KwMGMWc182gycvMU7','_blank');
               }}
@@ -137,7 +137,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#0aa1a1', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/fXcdpp5RE4K4PZEz9','_blank');
               }}
@@ -166,7 +166,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#e27b28', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/wahf3pX5FdU368gBA','_blank');
               }}
@@ -195,7 +195,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'maroon', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/dcrLkewFV6imJaxo7','_blank');
               }}
@@ -254,7 +254,7 @@ const TechnicalEvents = () => {
             </div>
             <br />
             <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'red', fontWeight:'600'}} 
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor:'#e2624b', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://forms.gle/KC1ZAjKzVDtDri7N9','_blank');
               }}
@@ -269,7 +269,7 @@ const TechnicalEvents = () => {
             <ReactCardFlip isFlipped={isFlipped8} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
               <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
-              <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${code_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>Bid to Code</p>
             </div>
