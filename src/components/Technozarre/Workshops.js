@@ -1,11 +1,14 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import sih from "../../assets/technozarre2k25/workshops/Sih.jpeg"
+import sih from "../../assets/technozarre2k25/workshops/sih.png"
+import research from "../../assets/technozarre2k25/workshops/research.png"
 import comingsoon from "../../assets/technozarre2k25/events/comingsoon.png"
 import staytuned from "../../assets/technozarre2k25/events/staytuned.png"
-import sih_bg from "../../assets/technozarre2k25/workshops/sih_bg.jpg"
-import research from "../../assets/technozarre2k25/workshops/Research.jpeg"
-import research_bg from "../../assets/technozarre2k25/workshops/research_bg.jpg"
+import sih_bg from "../../assets/technozarre2k25/workshops/sih_bg.png"
+import research_bg from "../../assets/technozarre2k25/workshops/research_bg.png"
+import quantum_computing from "../../assets/technozarre2k25/workshops/quantum_computing.png"
+import quantum_computing_bg from "../../assets/technozarre2k25/workshops/quantum_computing_bg.png"
+
 
 import { Button } from "react-bootstrap";
 
@@ -57,15 +60,14 @@ const Workshops = () => {
               <p style={{color:'white'}}>Whether you’re a beginner or a tech enthusiast, this workshop is crafted to help you grow and innovate! 🤩</p>
             </div>
             <br />
-            <div className='center' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-        
-              <Button  style={{width: '200px',textAlign: 'center'}} 
+            <div className="register-button" style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
+            <Button className="register-button" style={{width: '250px',textAlign: 'center', backgroundColor:'black',borderColor: '#3c6094', fontWeight:'600'}} 
               onClick={()=>{
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
               }}
-              disabled className="bg-gray-400 text-white py-2 px-4 rounded" >
+              disabled>
                 Registrations Closed</Button>
-              </div>
+                </div>
           </div>
         </ReactCardFlip>
       </div>
@@ -90,23 +92,44 @@ const Workshops = () => {
               <p style={{color:'white'}}>•⁠  🤝 Networking with fellow researchers</p>
             </div>
             <br />
-            <div className='center' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
-              <Button  style={{width: '200px',textAlign: 'center'}} 
-                onClick={()=>{
-                  window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
-                }}
-                disabled className="bg-gray-400 text-white py-2 px-4 rounded" >
-                  Registrations Closed</Button>
-            </div>
+            <div className="register-button" style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
+            <Button className="register-button" style={{width: '250px',textAlign: 'center', backgroundColor:'black',borderColor: '#3c6094', fontWeight:'600'}} 
+              onClick={()=>{
+                window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR3mZ3W5lUlcHu-EhA-KbJIQZ2afwELEMBHhxgxMUBq1O3uw/viewform','_blank');
+              }}
+              disabled>
+                Registrations Closed</Button>
+                </div>
           </div>
         </ReactCardFlip>
       </div>
 
       <div className="flip-card">
         <ReactCardFlip isFlipped={isFlipped3} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-          <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${quantum_computing})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
             </div>
-          <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${quantum_computing_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+          <div style={{textAlign: 'center'}}>
+              <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>Entangled Minds</p>
+            </div>
+            <div className="technozarre-back" style={{fontSize: '15px', flex: 1, color: 'white',overflowY:'auto'}}>
+            
+              <p style={{color:'white'}}>🗓️Date: 13th and 14th February, 2025</p>
+              <p style={{color:'white'}}>⏰Time: 9:00 AM to 2:30 PM</p>
+              <p style={{color:'white'}}>🏢 Venue: CSE(ETECH) Lab, SRM Vadapalani</p>      
+              <p style={{color:'white'}}>🚀 Workshop Highlights:</p>
+              <p style={{color:'white'}}>•⁠  ⁠🧠 Expert-led sessions on the research process </p>
+              <p style={{color:'white'}}>•⁠  ⁠📑 Step-by-step guide to writing and structuring your paper</p>
+              <p style={{color:'white'}}>•⁠  ⁠🚀 Tips for publishing in reputed journals</p>
+            </div>
+            <div className="register-button" style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
+            <Button className="register-button" style={{width: '200px',textAlign: 'center', backgroundColor:'black',borderColor: '#3c6094', fontWeight:'600'}} 
+              onClick={()=>{
+                window.open('https://forms.gle/gYWRpZ6bPZi5zwQA8','_blank');
+              }}
+              >
+                Register</Button>
+                </div>
           </div>
         </ReactCardFlip>
       </div>
@@ -116,6 +139,10 @@ const Workshops = () => {
           <div className="flip-card" onClick={handleClick4} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
           </div>
           <div className="flip-card" onClick={handleClick4} style={{backgroundImage: `url(${staytuned})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          <div style={{textAlign: 'center'}}>
+            </div>
+            <div className="technozarre-back" style={{fontSize: '15px', flex: 1, color: 'white',overflowY:'auto'}}>
+              </div>
           </div>
         </ReactCardFlip>
       </div>
