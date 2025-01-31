@@ -5,6 +5,7 @@ import banner from "../assets/technozarre2k25/banner.png";
 import Navigation from "../components/Navigation";
 import Events from "../components/Technozarre/Events";
 
+
 const Technozarre = () => {
 
   return (

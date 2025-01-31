@@ -486,3 +486,9 @@
 .custom-dropdown > btn-default {
   background:transparent;
 }
+
+.register-button {
+  color: 'red';
+  font-family:'Bona Nova SC';
+  font-weight: 800;
+}
