@@ -125,8 +125,6 @@ const Home = () => {
           </div>
         </div>
         <div >
-          <br />
-          <br />
           <Footer />
         </div>
       </div>

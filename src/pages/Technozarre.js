@@ -4,6 +4,7 @@ import Workshops from "../components/Technozarre/Workshops";
 import banner from "../assets/technozarre2k25/banner.png";
 import Navigation from "../components/Navigation";
 import Events from "../components/Technozarre/Events";
+import Footer from "../components/Home/Footer";
 
 
 const Technozarre = () => {
@@ -15,7 +16,7 @@ const Technozarre = () => {
           </div>
         <div className="technozarre-banner" style={{backgroundImage: `url(${banner})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}}>
         </div>
-        <div className="technozarre-page" style={{background: 'linear-gradient(180deg,rgb(0, 0, 0), rgb(13, 0, 21))', height: '100%'}}>
+        <div className="technozarre-page" style={{background: 'black', height: '100%'}}>
             <div>
               <Timer />
             </div>
@@ -30,6 +31,9 @@ const Technozarre = () => {
             </div>
             <div>
               <Events />
+            </div>
+            <div>
+              <Footer />
             </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import Team1 from "../components/Team/Team1";
 import Faculty from "../components/Team/Faculty";
 import Bod from "../components/Team/Bod";
+import Footer from "../components/Home/Footer";
 
 const TheTeam = () => {
 
@@ -47,7 +48,9 @@ const TheTeam = () => {
         <Bod />
       </div>
       <br></br>
-
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 

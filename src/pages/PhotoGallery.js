@@ -4,6 +4,7 @@ import Technozarre2k24 from "../components/PhotoGallery/Technozarre2k24";
 import Hackhorizons from "../components/PhotoGallery/Hackhorizons";
 import Cicada from "../components/PhotoGallery/Cicada";
 import Gitstarted from "../components/PhotoGallery/Gitstarted";
+import Footer from "../components/Home/Footer";
 
 const PhotoGallery = () => {
 
@@ -43,6 +44,9 @@ const PhotoGallery = () => {
             <Technozarre2k24 />
           </div>
         </div>
+        <div>
+        <Footer />
+      </div>
       </div>
     </div>
   
