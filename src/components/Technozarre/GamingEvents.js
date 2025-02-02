@@ -6,6 +6,9 @@ import { Button } from "react-bootstrap";
 import bgmi_bg from "../../assets/technozarre2k25/events/bgmi_bg.png"
 import valo_bg from "../../assets/technozarre2k25/events/valo_bg.png"
 import fifa_bg from "../../assets/technozarre2k25/events/fifa_bg.png"
+import bgmi from "../../assets/technozarre2k25/events/bgmi.png"
+import valo from "../../assets/technozarre2k25/events/valo.png"
+import fifa from "../../assets/technozarre2k25/events/fifa.png"
 
 const GamingEvents = () =>{
   const [isFlipped1, setIsFlipped1] = useState(false);
@@ -35,7 +38,7 @@ const GamingEvents = () =>{
         <div className="flip-card-wrapper" >
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-            <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+            <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${bgmi})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${bgmi_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -61,7 +64,7 @@ const GamingEvents = () =>{
           </div>
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped2} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-            <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+            <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${valo})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${valo_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -87,7 +90,7 @@ const GamingEvents = () =>{
           </div>
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped3} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-            <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+            <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${fifa})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${fifa_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
