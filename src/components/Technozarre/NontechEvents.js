@@ -9,6 +9,13 @@ import pickleball_bg from "../../assets/technozarre2k25/events/pickleball_bg.png
 import picture_bg from "../../assets/technozarre2k25/events/picture_bg.png"
 import treasure_bg from "../../assets/technozarre2k25/events/treasure_bg.png"
 import scribble_bg from "../../assets/technozarre2k25/events/scribble_bg.png"
+import ipl from "../../assets/technozarre2k25/events/ipl.png"
+import whisper from "../../assets/technozarre2k25/events/whisper.png"
+import pickleball from "../../assets/technozarre2k25/events/pickleball.png"
+import picture from "../../assets/technozarre2k25/events/picture.png"
+import treasure from "../../assets/technozarre2k25/events/treasure.png"
+import scribble from "../../assets/technozarre2k25/events/scribble.png"
+import cine_connect from "../../assets/technozarre2k25/events/cine_connect.png"
 
 import { Button } from "react-bootstrap";
 
@@ -57,7 +64,7 @@ const NontechEvents = () => {
         <div className="flip-card-wrapper" >
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick1} style={{backgroundImage: `url(${ipl})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div className='register-button' style={{marginTop: 'auto', textAlign: 'center',padding:'10px 0'}}>
                 </div>
               </div>
@@ -89,7 +96,7 @@ const NontechEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped2} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${whisper})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick2} style={{backgroundImage: `url(${whisper_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -118,7 +125,7 @@ const NontechEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped3} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${cine_connect})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick3} style={{backgroundImage: `url(${cine_connect_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -146,7 +153,7 @@ const NontechEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped4} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick4} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick4} style={{backgroundImage: `url(${pickleball})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick4} style={{backgroundImage: `url(${pickleball_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -175,7 +182,7 @@ const NontechEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped5} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick5} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick5} style={{backgroundImage: `url(${picture})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick5} style={{backgroundImage: `url(${picture_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -205,7 +212,7 @@ const NontechEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped6} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick6} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick6} style={{backgroundImage: `url(${treasure})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick6} style={{backgroundImage: `url(${treasure_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
@@ -234,7 +241,7 @@ const NontechEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped7} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick7} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick7} style={{backgroundImage: `url(${scribble})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
               <div className="flip-card" onClick={handleClick7} style={{backgroundImage: `url(${scribble_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
