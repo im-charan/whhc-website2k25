@@ -1,7 +1,5 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import comingsoon from "../../assets/technozarre2k25/events/comingsoon.png"
-import staytuned from "../../assets/technozarre2k25/events/staytuned.png"
 import { Button } from "react-bootstrap";
 import bgmi_bg from "../../assets/technozarre2k25/events/bgmi_bg.png"
 import valo_bg from "../../assets/technozarre2k25/events/valo_bg.png"

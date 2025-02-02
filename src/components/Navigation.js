@@ -40,6 +40,7 @@ const Navigation = () => {
           <Navbar.Toggle
             aria-controls="navbar-nav"
             className="custom-toggle"
+            style={{backgroundColor: 'grey'}}
           />
         </div>
         <Navbar.Collapse id="navbar-nav">

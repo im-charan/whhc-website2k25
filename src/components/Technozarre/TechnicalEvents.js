@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import comingsoon from "../../assets/technozarre2k25/events/comingsoon.png"
-import staytuned from "../../assets/technozarre2k25/events/staytuned.png"
 import etreasure_bg from "../../assets/technozarre2k25/events/etreasure_bg.jpg"
 import scifi_bg from "../../assets/technozarre2k25/events/scifi_bg.png"
 import python_bg from "../../assets/technozarre2k25/events/python_bg.png"

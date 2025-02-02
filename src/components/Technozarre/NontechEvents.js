@@ -1,7 +1,5 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import comingsoon from "../../assets/technozarre2k25/events/comingsoon.png"
-import staytuned from "../../assets/technozarre2k25/events/staytuned.png"
 import cine_connect_bg from "../../assets/technozarre2k25/events/cine_connect_bg.png"
 import ipl_bg from "../../assets/technozarre2k25/events/ipl_bg.png"
 import whisper_bg from "../../assets/technozarre2k25/events/whisper_bg.png"
