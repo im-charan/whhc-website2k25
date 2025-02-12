@@ -15,6 +15,8 @@ import sqlize from "../../assets/technozarre2k25/events/sqlize.png"
 import lucky from "../../assets/technozarre2k25/events/lucky.png"
 import zero from "../../assets/technozarre2k25/events/zero.png"
 import code from "../../assets/technozarre2k25/events/code.png"
+import bidtocode from "../../assets/technozarre2k25/events/bidtocode.jpeg"
+import sih_bg from "../../assets/technozarre2k25/workshops/sih_bg.png"
 
 import { Button } from "react-bootstrap";
 
@@ -273,9 +275,9 @@ const TechnicalEvents = () => {
 
           <div className="flip-card">
             <ReactCardFlip isFlipped={isFlipped8} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
-              <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+              <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${bidtocode})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
               </div>
-              <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${code_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
+              <div className="flip-card" onClick={handleClick8} style={{backgroundImage: `url(${sih_bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'100',}}>
               <div style={{textAlign: 'center'}}>
               <p className="technozarre-back-header" style={{color: 'white', marginTop:'10px',}}>Bid to Code</p>
             </div>
