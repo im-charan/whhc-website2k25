@@ -135,7 +135,7 @@ const Workshops = () => {
         </ReactCardFlip>
       </div>
 
-      <div className="flip-card">
+      {/* <div className="flip-card">
         <ReactCardFlip isFlipped={isFlipped4} flipDirection="horizontal" flipSpeedBackToFront={1.5} flipSpeedFrontToBack={1.5}>
           <div className="flip-card" onClick={handleClick4} style={{backgroundImage: `url(${comingsoon})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
           </div>
@@ -146,7 +146,7 @@ const Workshops = () => {
               </div>
           </div>
         </ReactCardFlip>
-      </div>
+      </div> */}
     </section>
   )
 }
